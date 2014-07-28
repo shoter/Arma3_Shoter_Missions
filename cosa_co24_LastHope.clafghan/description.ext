@@ -1,0 +1,23 @@
+class Header {
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 24;
+};
+
+onLoadName = "[COSA] Last Hope";		
+OnLoadMission = "Głównym celem misji jest aresztowanie podejrzanego o terroryzm.";
+author = "Shoter";
+loadScreen = "splash.jpg";
+
+class Params
+{
+	class SpawnBlackout
+        {
+        //paramsArray[2]
+                title = "KrzepkiDiesFirst";
+                values[] = {0,1,2,3,4,5,6};
+                texts[] = {"Tak", "Tak", "Da", "Ja", "Si", "Yes", "Hai"};
+                default = 1;
+        };
+
+}
