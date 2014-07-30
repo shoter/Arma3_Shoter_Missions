@@ -1,0 +1,29 @@
+#include "VAS\menu.hpp"
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+};
+
+class Header {
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 30;
+};
+
+onLoadName = "[COSA] Enormity";		
+OnLoadMission = "Głównym celem misji jest odbicie zakładnika przetrzymywanego przez terrorystów. Podziękowania dla Krzepkiego i Rathgara za testy";
+author = "Shoter";
+loadScreen = "";
+
+class Params
+{
+	class SpawnBlackout
+        {
+        //paramsArray[2]
+                title = "SpawnBlackOut";
+                values[] = {0,1};
+                texts[] = {"Off", "On"};
+                default = 1;
+        };
+
+}

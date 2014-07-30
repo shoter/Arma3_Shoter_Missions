@@ -1,0 +1,17 @@
+#include "VAS\menu.hpp"
+class CfgFunctions
+{
+	#include "VAS\cfgfunctions.hpp"
+};
+
+class Header {
+	gameType = COOP;
+	minPlayers = 1;
+	maxPlayers = 30;
+};
+
+onLoadName = "[COSA] Shattering Blow";		
+OnLoadMission = "Głównym celem misji jest zniszczenie naziemnej obrony przeciwlotniczej rebeliantów";
+author = "Shoter";
+loadScreen = "";
+
